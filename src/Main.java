@@ -13,8 +13,8 @@ public class Main {
 
         Thread worker = new Thread(() -> {
 
-            processFile("atotc.txt", "atotcCAP.txt");
-            processFile("dictionary.txt", "dictionaryCAP.txt");
+            processFile("warandpeace.txt", "warandpeaceCAP.txt");
+            processFile("confessionsofstaug.txt", "confessionsofstaugCAP.txt");
 
         });
 
