@@ -14,6 +14,7 @@ public class Main {
         Thread worker = new Thread(() -> {
 
             processFile("warandpeace.txt", "warandpeaceCAP.txt");
+
             processFile("confessionsofstaug.txt", "confessionsofstaugCAP.txt");
 
         });
